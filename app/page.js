@@ -6,7 +6,7 @@ import FAQAccordion from '@/components/FAQAccordion';
 import {
   GraduationCap, BookOpenCheck, BarChart3, Smartphone, Calculator, FlaskConical,
   BookOpen, Landmark, Laptop, Target, CheckCircle2, Clock3, Heart,
-  ListChecks, TimerReset, MessageSquareText, Video, BarChart3, FileText, Check, Play,
+  ListChecks, TimerReset, MessageSquareText, Video, FileText, Check, Play,
   ArrowRight, Trophy, CalendarDays
 } from 'lucide-react';
 

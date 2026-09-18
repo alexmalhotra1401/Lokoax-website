@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { GraduationCap, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { GraduationCap } from 'lucide-react';
 
 export default function SiteFooter() {
   return (
@@ -12,9 +12,9 @@ export default function SiteFooter() {
           </Link>
           <p>Learn today. Build confidence for tomorrow.</p>
           <div className="social-links" aria-label="Social links">
-            <a href="#" aria-label="Instagram"><Instagram size={17} /></a>
-            <a href="#" aria-label="YouTube"><Youtube size={17} /></a>
-            <a href="#" aria-label="LinkedIn"><Linkedin size={17} /></a>
+            <a href="#" aria-label="Instagram"><span aria-hidden="true">IG</span></a>
+            <a href="#" aria-label="YouTube"><span aria-hidden="true">YT</span></a>
+            <a href="#" aria-label="LinkedIn"><span aria-hidden="true">IN</span></a>
           </div>
         </div>
 
